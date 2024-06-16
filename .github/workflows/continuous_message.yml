@@ -20,4 +20,5 @@ jobs:
 
       - name: Run print_message script
         run: |
+          echo "::set-output name=job_status::Running script"
           python print_message.py
